@@ -1,0 +1,89 @@
+/* SignupPage.css */
+.signup-page {
+  background-image: url(https://images.unsplash.com/photo-1534545872802-0579930815c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D);
+  /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.signup-container {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(140, 153, 161);
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Default button style */
+.signup-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  /* Add your default button styles here */
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+  .signup-btn {
+    /* Define styles for small screens */
+    font-size: 12px;
+    /* Adjust font size for small screens */
+    padding: 8px 16px;
+    /* Adjust padding for small screens */
+  }
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .signup-btn {
+    /* Define styles for medium screens */
+    font-size: 14px;
+    /* Adjust font size for medium screens */
+    padding: 10px 20px;
+    /* Adjust padding for medium screens */
+  }
+}
+
+/* Media query for large screens (e.g., desktops) */
+@media only screen and (min-width: 1025px) {
+  .signup-btn {
+    /* Define styles for large screens */
+    font-size: 16px;
+    /* Adjust font size for large screens */
+    padding: 12px 24px;
+    /* Adjust padding for large screens */
+  }
+}
